@@ -219,20 +219,5 @@ jupyter notebook
 5. Open the Power BI dashboard file (`.pbix`)
 
 6. Review the final report and presentation
-
 ---
-
-## Future Improvements
-
-* Automate ETL pipeline
-* Add predictive analytics models
-* Deploy dashboard to Power BI Service
-* Integrate real-time data sources
-
----
-
-## Author
-
-**Your Name**
-
 Data Analytics Project demonstrating Python, SQL, Power BI, and Business Intelligence skills.
