@@ -16,24 +16,6 @@ The project includes:
 * Business insights report generation
 * Presentation development using Gamma
 
----
-
-## Dataset
-
-**Source:** [Dataset Name]
-
-**Description:**
-The dataset contains information related to [industry/domain], including key attributes such as sales, customers, products, transactions, performance metrics, or other relevant business data.
-
-**Dataset Features:**
-
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
-* Target Metric(s)
-
----
 
 ## Tools & Technologies
 
