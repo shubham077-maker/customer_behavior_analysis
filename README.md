@@ -1,205 +1,58 @@
-# customer_behavior_analysis
-Data analytics project showcasing customer behavior analysis  using  python, sql  and power Bi.
-# Data Analytics Project
+# 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
+This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
 
-## Overview
-
-This project demonstrates an end-to-end Data Analytics workflow, covering data extraction, cleaning, analysis, visualization, and reporting. The objective is to transform raw data into actionable business insights using Python, SQL, and Power BI.
-
-The project includes:
-
-* Data loading and preprocessing using Python
-* Exploratory Data Analysis (EDA)
-* Data cleaning and transformation
-* SQL analysis using PostgreSQL/MySQL/SQL Server
-* Interactive Power BI dashboard creation
-* Business insights report generation
-* Presentation development using Gamma
+This project is perfect for:
+- 📊 Data Analyst aspirants who want to build a strong **Portfolio Project** for interviews and LinkedIn
+- 📚 Anyone learning Python, SQL, and Power BI
+- 💼 Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
 
 
-## Tools & Technologies
+## 📌 Project Overview
+The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
 
-### Programming & Analysis
+✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
+✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
 
-### Database
+✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
 
-* PostgreSQL / MySQL / SQL Server
-* SQL
+✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
 
-### Visualization
+![Project Workflow](https://github.com/user-attachments/assets/8bbd5dc9-eb6c-40c1-8f19-c08b4107f654)
 
-* Power BI
+## 🛠️ How to Use This Project
 
-### Reporting & Presentation
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
+   cd customer-trends-data-analysis-SQL-Python-PowerBI
+   ```
+2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
 
-* Microsoft PowerPoint
-* Gamma AI
+    This file contains:
 
-### Development Environment
+      - Data Import
 
-* Jupyter Notebook / VS Code
+      - Data exploration
 
----
+      - Data cleaning
 
-## Project Workflow
+      - Connection to SQL Database
+  
+3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
 
-### 1. Data Loading
+      - Create a database in SQL
 
-* Imported dataset into Python environment
-* Examined data structure and data types
-* Identified missing values and inconsistencies
+      - Run Python code to load data into SQL database
+  
+      - Open **customer_behavior_sql_queries.sql**
+  
+      - Answer Business Questions using SQL Queries 
+      
+4. **Connect the SQL Database to Power BI**
 
-### 2. Exploratory Data Analysis (EDA)
+      - Open **customer_behavior_dashboard.pbix**
+   
+      - Create interactive dashboard in Power BI
 
-* Statistical summary analysis
-* Distribution analysis
-* Correlation analysis
-* Trend identification
-* Outlier detection
 
-### 3. Data Cleaning
-
-* Removed duplicates
-* Handled missing values
-* Corrected data types
-* Standardized formats
-* Prepared data for analysis
-
-### 4. SQL Analysis
-
-Performed business-focused SQL queries including:
-
-* Data filtering
-* Aggregations
-* Grouping and ranking
-* Joins
-* Window functions
-* KPI calculations
-
-### 5. Dashboard Development
-
-Created an interactive Power BI dashboard featuring:
-
-* KPI overview
-* Trend analysis
-* Category performance
-* Regional analysis
-* Interactive filters and slicers
-
-### 6. Reporting & Presentation
-
-* Generated analytical report summarizing findings
-* Created presentation slides using Gamma
-* Highlighted business recommendations and insights
-
----
-
-## Dashboard
-
-### Key Dashboard Components
-
-* Executive Summary
-* KPI Cards
-* Trend Analysis Charts
-* Category Performance Visuals
-* Regional Performance Analysis
-* Interactive Filters
-
-### Sample KPIs
-
-* Total Revenue
-* Total Orders
-* Average Sales
-* Growth Rate
-* Customer Count
-* Top Performing Segment
-
----
-
-## Results & Insights
-
-### Key Findings
-
-* Identified top-performing categories and regions
-* Discovered major revenue drivers
-* Highlighted trends and seasonal patterns
-* Detected opportunities for business improvement
-* Generated actionable recommendations
-
-### Business Impact
-
-* Improved understanding of business performance
-* Enabled data-driven decision-making
-* Supported strategic planning through analytics
-
----
-
-## Repository Structure
-
-```text
-Data-Analytics-Project/
-│
-├── data/
-│   ├── raw_data.csv
-│   └── cleaned_data.csv
-│
-├── notebooks/
-│   └── analysis.ipynb
-│
-├── sql/
-│   └── analysis_queries.sql
-│
-├── dashboard/
-│   └── powerbi_dashboard.pbix
-│
-├── reports/
-│   ├── project_report.pdf
-│   └── presentation.pptx
-│
-├── images/
-│   └── dashboard_screenshots.png
-│
-└── README.md
-```
-
----
-
-## How to Run
-
-### Prerequisites
-
-Install required Python libraries:
-
-```bash
-pip install pandas numpy matplotlib seaborn
-```
-
-### Steps
-
-1. Clone the repository
-
-```bash
-git clone <repository-url>
-```
-
-2. Open the Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-3. Run all notebook cells
-
-4. Execute SQL queries in PostgreSQL/MySQL/SQL Server
-
-5. Open the Power BI dashboard file (`.pbix`)
-
-6. Review the final report and presentation
----
-Data Analytics Project demonstrating Python, SQL, Power BI, and Business Intelligence skills.
